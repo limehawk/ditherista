@@ -200,7 +200,7 @@ jobs:
           retention-days: 7     
 
   build_linux_x86_64:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout (Linux)
         uses: actions/checkout@v4
