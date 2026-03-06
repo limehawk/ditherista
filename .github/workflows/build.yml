@@ -75,7 +75,7 @@ jobs:
         shell: bash        
 
       - name: Upload artifacts (Windows MSVC)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ditherista-win64_msvc
           path: ${{ steps.pkg.outputs.dist_path }}
@@ -134,7 +134,7 @@ jobs:
         shell: bash        
 
       - name: Upload artifacts (Windows MinGW)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ditherista-win64_mingw
           path: ${{ steps.pkg.outputs.dist_path }}
@@ -192,7 +192,7 @@ jobs:
         shell: bash        
 
       - name: Upload artifacts (macOS)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ditherista-macos_universal
           path: ${{ steps.pkg.outputs.dist_path }}
@@ -304,7 +304,7 @@ jobs:
         shell: bash        
 
       - name: Upload artifacts (Linux)
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ditherista-linux_x86_64
           path: ${{ steps.pkg.outputs.dist_path }}
