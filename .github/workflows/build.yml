@@ -24,7 +24,7 @@ jobs:
           submodules: recursive
     
       - name: Install NSIS (Windows MSVC)
-        uses: negrutiu/nsis-install@v1
+        uses: negrutiu/nsis-install@v2
 
       - name: Set up Make and Chocolatey (Windows MSVC)
         uses: crazy-max/ghaction-chocolatey@v3
@@ -91,7 +91,7 @@ jobs:
           submodules: recursive
     
       - name: Install NSIS (Windows MinGW)
-        uses: negrutiu/nsis-install@v1
+        uses: negrutiu/nsis-install@v2
 
       - name: Set up Make and Chocolatey (Windows MinGW)
         uses: crazy-max/ghaction-chocolatey@v3
