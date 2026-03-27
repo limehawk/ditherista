@@ -220,7 +220,7 @@ jobs:
           set-env: true
 
       - name: Provision ICU 73 (Linux)
-        uses: mamba-org/setup-micromamba@v2
+        uses: mamba-org/setup-micromamba@v3
         with:
           environment-name: qt-icu
           create-args: -c conda-forge icu=73
