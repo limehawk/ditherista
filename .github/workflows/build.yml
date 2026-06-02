@@ -19,7 +19,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout (Windows MSVC)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
     
@@ -86,7 +86,7 @@ jobs:
     runs-on: windows-latest
     steps:
       - name: Checkout (Windows MinGW)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
     
@@ -145,7 +145,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Checkout (macOS)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
     
@@ -203,7 +203,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Checkout (Linux)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           submodules: recursive
     
